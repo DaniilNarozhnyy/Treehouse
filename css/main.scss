@@ -1,0 +1,32 @@
+//мои переменные
+//мои переменные
+$container-width: 940px;
+$footer-height: 100px;
+
+//цвета
+$green: #7cc576;
+$black: #222222;
+$grey: #e9e9e9;
+$light__grey: #f9f9f9;
+$light__black: #777777;
+$blue: #03a9f4;
+
+
+//layout
+@import "adjustment";
+@import "normalize";
+@import "mixins";
+
+    
+//styles
+@import "header";
+@import "digital";
+@import "services";
+@import "desc";
+@import "latest";
+@import "culture";
+@import "client";
+@import "project";
+@import "logo";
+@import "info";
+@import "footer";

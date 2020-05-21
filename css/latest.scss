@@ -1,0 +1,96 @@
+.latest {
+    background-image: url("../img/bg/isometric%20iPad%20Air.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    
+    .left__section {
+        width: 50%;
+        text-align: left;
+        
+        .inner{
+            
+            .about__title {
+                font-family: 'Montserrat', sans-serif;
+                font-weight: 700;
+                font-size: 18px;
+                
+                text-transform: uppercase;
+                
+                padding-bottom: 20px;
+            }
+            
+            .about__suptitle {
+                font-size: 16px;
+                opacity: .7;
+                padding: 0;
+            }
+            
+            .ul {
+                
+                .li {
+                    display: flex;
+                    align-items: center;
+                    padding-top: 15px;
+                }
+                
+                
+                .icon__circle {
+                    width: 73px;
+                    height: 73px;
+
+                    margin-right: 10px;
+                    margin-bottom: 10px;
+
+
+                    @include border-radius(50%);
+                    background-position: center;
+                    background-size: auto;
+                    background-repeat: no-repeat;
+
+                    border: 2px solid black;
+                }
+                
+                .basket {
+                    background-image: url('../img/icon/Icon-Basket.png')
+                }
+                
+                .laptop {
+                    background-image: url('../img/icon/Icon-Laptop.png')
+                }
+                
+                .locked {
+                    background-image: url('../img/icon/Icon-Locked.png')
+                }
+            
+                .icon__wrapper {
+
+                    .icon__title {
+                        font-family: 'Montserrat', sans-serif;
+                        font-weight: 700;
+                        font-size: 18px;
+                    }
+                    
+                    .about__suptitle {
+                        padding: 0;
+                    }
+                }
+            }
+            
+            .link {
+                display: flex;
+                font-family: 'Montserrat', sans-serif;
+                font-weight: 700;
+                padding-top: 15px;
+
+                text-transform: uppercase;
+                text-decoration: none;
+
+                color: $green;
+                
+                .img {
+                    padding-left: 5px;
+                }
+            }
+        }
+    }
+}

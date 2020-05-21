@@ -1,0 +1,69 @@
+.info {
+    background-color: $black;
+    
+    .container {
+        
+        .ul {
+            display: flex;
+            justify-content: space-between;
+            text-align: left;
+            
+            color: white;
+            
+            .column:nth-child(1) {
+                width: 210px;
+            }
+
+            .column:nth-child(2) {
+                width: 310px;
+            }
+
+            .column:nth-child(3) {
+                width: 290px;
+            }
+            
+            .title {
+                font-family: 'Montserrat', sans-serif;
+                font-size: 18px;
+                font-weight: 700;
+                
+                text-transform: uppercase;
+            }
+            
+            .info__block {
+                
+                .row {
+                    display: flex;
+                    padding-top: 15px;
+                    opacity: .9;
+                    
+                    font-size: 16px;
+                    
+                    .inner__txt {
+                        
+                        p {
+                            margin: 0;
+                        }
+                    }
+                    
+                    &:hover {
+                        opacity: 1;
+                        
+                        .txt {
+                            color: $green;
+                        }
+                    }
+                    
+                    .suptxt {
+                        padding-top: 5px;
+                        font-size: 12px;
+                    }
+                    
+                    .icon {
+                        padding-right: 20px;
+                    }
+                }
+            }
+        }
+    }
+}

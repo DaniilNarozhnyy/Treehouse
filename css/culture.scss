@@ -1,0 +1,48 @@
+.culture {
+    background-color: $light__grey;
+    
+    .about__circle {
+        position: relative;
+        width: 90px;
+        height: 90px;
+
+        margin: 10px 20px;
+
+        @include border-radius(50%);
+        
+        background-position: center;
+        background-size: auto;
+        background-repeat: no-repeat;
+
+        border: 2px solid #777777;
+    }
+    
+    .music {
+        background-image: url('../img/icon/Icon-Music.png');
+    }
+    
+    .graph {
+        background-image: url('../img/icon/Icon-Graph.png');
+    }
+    
+    .star {
+        background-image: url('../img/icon/Icon-Star.png');
+    }
+
+    .about__circle:after {
+            position: absolute;
+            content: "";
+            width: 170px;
+            height: 2px;
+            background-color: black;
+
+            left: 115px;
+            top: 45px;
+            opacity: .5;
+        }
+    
+    .about__services:last-child .about__circle:after{
+        display: none;
+    }
+}
+
